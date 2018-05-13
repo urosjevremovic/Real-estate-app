@@ -24,7 +24,7 @@ file for easier browsing.
 from setuptools import setup
 
 setup(name='RealEstateAppRealitica',
-      version='0.1',
+      version='0.2',
       description='Script that runs a web scraper in a background and gets all available real estates in Balkan area, '
                   'and filters them by given parameters(country, city, municipality).',
       long_description=__doc__,

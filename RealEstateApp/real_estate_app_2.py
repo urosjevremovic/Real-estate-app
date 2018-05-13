@@ -62,7 +62,7 @@ def main():
 
     finished = False
 
-    with open('real_estates_in.csv', 'w') as csv_file:
+    with open(f'real_estates_in_{drzava}_{grad.title()}_{opstina.title()}.csv', 'w') as csv_file:
         csv_writer = csv.writer(csv_file)
         csv_writer.writerow(['price', 'size', 'location', 'link'])
 
